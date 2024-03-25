@@ -1,0 +1,47 @@
+h1,
+#reset{
+    font-family: "Russo One", sans-serif;
+}
+.body{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+h1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.box{
+    width: 8rem;
+    height: 8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0px;
+}
+@media screen and (max-width:460px){
+    .box{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+.bb{
+    border-bottom:5px solid white
+}
+.rb{
+    border-right:5px  solid white;
+}
+.my-swal {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+  }
+  
+  
+  
+  
